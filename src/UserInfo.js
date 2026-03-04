@@ -21,6 +21,8 @@ return (
 <p>Name: {this.state.name}</p>
 <p>Profession: {this.state.profession}</p>
 <p>Today the lucky number is: {this.state.luckyNumber}</p>
+
+<button onClick={this.props.handleClick}> Show Alert </button>
 </div>
 );
 }

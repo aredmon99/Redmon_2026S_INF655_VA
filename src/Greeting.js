@@ -1,14 +1,10 @@
 import React from "react";
 
-function Greeting() {
-  const dateoftoday = new Date ().toDateString();
+function Greeting({username}) {
 
   return (
     <div>
-      <h1>Hello, and Welcome to React Assignment 1!</h1>
-      <p style={{color: "red", backgroundColor: "black", fontSize: "18px"}}>
-        Todays Date: {dateoftoday}
-      </p>
+      <h2>Hello, {username} and Welcome to React Assignment 2!</h2>
     </div>
   );
 }
